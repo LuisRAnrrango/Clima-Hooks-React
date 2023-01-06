@@ -38,13 +38,11 @@ Use the following steps to run this Portfolio locally:
 - open the folder with a new terminal (This can be done with a code editor or directly in the terminal.)
 - put "npm start"
 
-### `npm run eject`
-
 ### Deployment
 
 For a live demo please click on the following link:
 
-https://
+https://clima-hooks-react-ee3vnu5zx-luisranrrango.vercel.app/clima
 
 ## Author
 
