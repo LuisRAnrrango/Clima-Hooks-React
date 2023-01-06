@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 export const Navbar = () => {
   let activeStyle = {
     textDecoration: "underline",
@@ -9,6 +10,9 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
+        <div id="logo">
+          <img src="./images/kruger.png" className="app-logo" alt="Imagotipo" />
+        </div>
         <a className="navbar-brand" id="optionm" href="localhost">
           Kruger Start
         </a>
