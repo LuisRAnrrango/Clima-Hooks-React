@@ -3,7 +3,6 @@ import Loading from "./loading";
 import WeatherForm from "./weatherForm";
 import WeatherMainInfo from "./weatherMainInfo";
 
-import styles from "./weatherApp.module.css";
 
 export default function WeatherApp() {
   const [weather, setWeather] = useState(null);
@@ -41,9 +40,11 @@ export default function WeatherApp() {
   }
 
   return (
-    <div className={styles.weatherContainer}>
-      <WeatherForm onChangeCity={handleOnChangeCity} />
-      {weather ? <WeatherMainInfo weather={weather} /> : <Loading />}
+    <div className="card">
+      <div className="card-body">
+        <WeatherForm onChangeCity={handleOnChangeCity} />
+        {weather ? <WeatherMainInfo weather={weather} /> : <Loading />}
+      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import WeatherApp from "../components/weather/weatherApp";
 export const Weather = () => {
   return (
     <div>
-      <div>Weather</div>
+      <h1 className="h1">CONSULTAR CLIMA </h1>
       <WeatherApp />
     </div>
   );

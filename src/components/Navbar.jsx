@@ -37,7 +37,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/tareas"
+                to="/clima"
                 id="optionm"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}

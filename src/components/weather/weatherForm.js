@@ -19,7 +19,7 @@ export default function WeatherForm({ onChangeCity }) {
   return (
     <form onSubmit={handleSubmit} className={styles.container}>
       <input
-        className=""
+        className="form-control"
         type="text"
         value={city}
         onChange={handleChange}
