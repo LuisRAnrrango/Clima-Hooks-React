@@ -4,3 +4,7 @@
 .navbar {
   background: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
 }
+
+body{
+  background-color: #8b6060;
+}
