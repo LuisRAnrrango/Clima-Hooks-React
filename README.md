@@ -9,7 +9,7 @@ In this repository you can find the code of a web application which was develope
 
 ## Available Scripts
 
-<img src='public\images\Mockup.png'>
+<img src='public\images\Mockup-Weather.png'>
 
 ## Built With
 
